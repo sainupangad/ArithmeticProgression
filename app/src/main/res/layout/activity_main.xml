@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+   android:background="#8BC34A">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="സമാന്തര ശ്രേണി  ചെക്ക് ചെയ്യാം "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aഎത്രാമത്തെ പദം "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:hint="  eg:അഞ്ചാം പദം "
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/A1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aഅതിന്റെ തുക "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:layout_marginLeft="33dp"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:hint="  eg:അഞ്ചാം പദം "
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/A2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bഎത്രാമത്തെ പദം "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:hint="  eg:അഞ്ചാം പദം "
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/B1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bഅതിന്റെ തുക "
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:hint="  eg:അഞ്ചാം പദം "
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="33dp"
+            android:id="@+id/B2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="172dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:background="@drawable/geo"
+                android:clickable="true"
+                android:soundEffectsEnabled="true"
+                android:id="@+id/BT"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CLICK"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:rotation="-18"/>
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:background="@drawable/board" />
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:rotation="10
+
+">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="A"
+                    android:textSize="35dp"
+                    android:gravity="center"
+                    android:id="@+id/RS"
+                    android:visibility="invisible"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="B"
+                    android:textSize="35dp"
+                    android:gravity="center"
+                    android:id="@+id/RS1"
+                    android:visibility="invisible"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="C"
+                    android:textSize="35dp"
+                    android:gravity="center"
+                    android:id="@+id/RS3"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
